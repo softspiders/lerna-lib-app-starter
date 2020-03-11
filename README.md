@@ -51,6 +51,13 @@ Minimalistic JS library development environment on Lerna
    ```sh
    npm run start:app
    ```
+
+   If everything is alright, you will see:
+   <p align="center">
+	   <div">
+	   		<img alt="Screenshot of the application code run in console" src="images/Example.png" />
+	   </div>
+	</p>
 2. Try changing the lib, it should reflect the changes directly
 3. Now, you can start developing your own library!
 
