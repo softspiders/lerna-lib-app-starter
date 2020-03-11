@@ -1,0 +1,9 @@
+{
+  "name": "example-lib",
+  "version": "0.0.1",
+  "description": "Example lib",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ]
+}

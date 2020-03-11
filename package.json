@@ -1,0 +1,35 @@
+{
+  "name": "lerna-lib-app-starter",
+  "version": "1.0.0",
+  "description": "Minimalistic JS library development environment on Lerna",
+  "main": "index.js",
+  "private": true,
+  "repository": "https://github.com/softspiders/lerna-lib-app-starter",
+  "keywords": [
+    "app",
+    "build",
+    "lerna",
+    "lib",
+    "softspiders",
+    "starter",
+    "template"
+  ],
+  "author": "Asoyan Danila",
+  "license": "MIT",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "start:app": "cd packages/example-app/src && node index.js",
+    "clean": "lerna clean",
+    "clean:build": "lerna exec -- rimraf lib",
+    "build": "lerna run build",
+    "test": "exit 0"
+  },
+  "bugs": {
+    "url": "https://github.com/softspiders/lerna-lib-app-starter/issues"
+  },
+  "homepage": "https://github.com/softspiders/lerna-lib-app-starter/blob/master/README.md",
+  "devDependencies": {
+    "lerna": "^3.20.2",
+    "rimraf": "^3.0.1"
+  }
+}
